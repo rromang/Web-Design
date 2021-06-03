@@ -14,7 +14,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand disabled">Links</a>
+          <a class="navbar-brand">Links</a>
         
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -23,14 +23,13 @@
                   <a class="nav-link" href="index.html">Home</a>
                   <span class="glyphicon glyphicon-home"></span>
                 </li>
-                <a class="nav-link" href="#">Visualizations <span class="sr-only">(current)</span></a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="visualization.html">Visualizations</a>
+                  </li>
               <li class="nav-item">
-                <a class="nav-link" href="comparisons.html">Comparisons</a>
+                <a class="nav-link" href="#">Comparisons <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="table.html">Data</a>
-              </li>
+              <a class="nav-link" href="table.html">Data</a>
               </li>
             </ul>
             <!-- <form class="form-inline my-2 my-lg-0">
@@ -50,18 +49,30 @@
 
     <div class="container">
 
-      <div class="row">
-        <div class="col"><img src="Resources/max_temp.png" alt="Max Temp"
-          style="width:410px;height:400px"></div>
-        <div class="col"><img src="Resources/humidity.png" alt="Humidity"
-          style="width:410px;height:400px"></div>
+        <p> Click on the graphs for more detailed description of the data represented.</p>
 
-      </div>
       <div class="row">
-        <div class="col"><img src="Resources/wind_speed.png" alt="Wind Speed"
-          style="width:410px;height:400px"></div>
-        <div class="col"><img src="Resources/cloudiness.png" alt="Cloudiness"
-          style="width:410px;height:400px"></div>
+        <div class="col-md-auto">
+            <a href='max_temp.html'><img src="Resources/max_temp.png" alt="Max Temp"
+          style="width:410px;height:400px">
+            </a>
+        </div>
+        <div class="col-md-auto">
+            <a href='cloudiness.html'><img src="Resources/cloudiness.png" alt="Cloudiness"
+            style="width:410px;height:400px">
+              </a>
+      </div>
+
+     <div class="row">
+        <div class="col-md-auto">
+            <a href='humidity.html'><img src="Resources/humidity.png" alt="Humidity"
+          style="width:410px;height:400px">
+            </a>
+        </div>
+        <div class="col-md-auto">
+            <a href='wind_speed.html'><img src="Resources/wind_speed.png" alt="Wind Speed"
+            style="width:410px;height:400px">
+              </a>
       </div>
 
     </div> 
